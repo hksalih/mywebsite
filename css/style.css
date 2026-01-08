@@ -2,20 +2,23 @@
     margin: 0;
 }
 
-html{
-    background-image: 
-    url("https://duckduckgo.com/?q=fc+barcelona+background+images&atb=v314-1&t=chromentp&ia=images&iax=images&iai=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FPerfect-fc-barcelona-logo-sport-wallpaper-hd.jpg") ;
-    background-size: contain;
+html {
+    height: 100%;  /* Ensures full height propagation */
 }
 
-body{
-    background-color: rgba(188, 189, 186, 0.6) ;
+body {
+    background-image: url("images/RedBlue2.jpg");
+    background-size: cover;          /* Fills the whole screen */
+    background-position: center;      /* Centers the image */
+    background-repeat: no-repeat;     /* Prevents tiling */
+    background-attachment: fixed;     /* Optional: keeps it fixed on scroll */
+
+    background-color: rgba(188, 189, 186, 0.6);  /* Your overlay */
     width: 60%;
-    margin:auto;
+    margin: auto;
     min-height: 100vh;
     text-align: center;
     font-family: cursive;
-
     padding-bottom: 50px;
 }
 
