@@ -2,10 +2,21 @@
     margin: 0;
 }
 
+html{
+    background-image: 
+    url("images/RedBlue2.jpg") ;
+    background-size: contain;
+}
 
+body{
+    background-color: rgba(188, 189, 186, 0.6) ;
+    width: 60%;
+    margin:auto;
+    min-height: 100vh;
+    text-align: center;
+    font-family: cursive;
 
-body {
-    background-image: url('images/RedBlue2.jpg');
+    padding-bottom: 50px;
 }
 
 h1{
